@@ -1,0 +1,105 @@
+本プロジェクトに必要な環境を構築するための資料になります。
+
+１、gitをインストール
+・インストールサイト
+https://git-scm.com/downloads
+
+・インストールと初期設定手順（参考）
+https://eng-entrance.com/git-install
+
+２、リモートリポジトリから複製（SVNで言うチェックアウト）
+・Git Bash 起動
+　スタートメニュー、エクスプローラーの右クリック、ショートカットなどなど
+　好きな方法で起動させてください。
+
+・複製したいフォルダに移動
+　$ cd 〇〇
+
+・複製
+　$ git clone https://github.com/gymem/kog.git
+
+※Git GUI などGUIでGitを操作する方法もあるみたいなので
+　そちらが好みの方は各自調べてください。
+　その際には資料を残していただけますと幸いです。
+
+とここまで書きましたが、
+このドキュメントを見れている皆様は
+すでにやっている内容ですね。
+
+３、GitHubアカウントの取得
+pullしようとするとGitHubへのログインを求められるので
+必要みたいです。
+
+・アカウント取得（参考）
+https://www.sejuku.net/blog/73468
+
+４、Unreal Engine のインストール
+・インストール手順（参考）
+http://api.unrealengine.com/JPN/GettingStarted/Installation/index.html
+
+※PCが貧弱だったり、回線が遅いと
+　インストールが完了するまで数時間かかります。
+
+５-α、Visual Studio と C++関連のツールをインストール
+実施していないので手順は不明。
+Visual Studio を Unreal Engineのエディターとして
+使用している方がいましたら
+インストールの手順を残していただけますと幸いです。
+
+５-β、Visual Studio Code と C++関連のツールをインストール
+この手順は Unreal Engine の source code editor を
+Visual Studio Code にする人向けの手順です。
+Visual Studio を使用する人はこの手順をやらないでください。
+
+・インストールや設定手順（参考）
+http://unrealengine.hatenablog.com/entry/2017/10/26/215621
+
+・Visual Studio Code の日本語化手順（参考）
+https://qiita.com/HiroCh/items/481adfa969dbe689f566
+
+※Unreal Engine のバージョンによって
+　必要なVisual Studio が変わります。
+　http://unrealengine.hatenablog.com/entry/2018/07/10/232300
+
+※参考サイトでは
+　「コンパイラーはVC++2017ではなく、VC++2015を使うので」
+　と記載されていますが、
+　VC++2017をインストールしないと新規プロジェクトを作成することすらできません。
+　なので、VC++2017を入れてください。VC++2015はいらないです。
+
+※参考サイトでは
+　「VS Codeの拡張機能C#を入れてから.NET Core SDKをインストール」
+　していますが、
+　VS Codeの拡張機能C#を入れるとき、「.NET Core SDKがない」と怒られるので
+　.NET Core SDKを先に入れた方がいいかもしれません。
+
+６、PCのメモリ軽量化
+Unreal Engine とエディターを起動するだけで約1.2GBのメモリーを使用します。
+貧弱なPCでは重くなるので、少しでも軽量化をした方がいいです。
+
+下記、参考サイトを乗せていますが、
+実際に行うかは各自の判断で行ってください。
+
+・PC起動時に Epic Games Launcher を起動しないようにする。
+https://gameisbest.jp/archives/28763
+
+※ skype や discord などもログインしてからでないと
+　自動起動を解除できないです。
+
+・Windows10 の停止しておきたいサービスとタスク
+https://islandcnt.exblog.jp/237911929/
+
+・不要なプログラムをアンインストール
+https://magazine.synapse.jp/info/post-3560
+
+自動起動しているけど、自動起動のON,OFF設定が見つからない
+プログラムがあります。
+使用していないプログラムであれば
+アンインストールした方が早いです。
+
+・Windows10 の標準アプリをアンインストール
+https://ygkb.jp/471#toc35
+
+標準アプリは PoerShell を使用しないと
+削除できないみたいです。
+使用していないのは消した方が節約になります。
