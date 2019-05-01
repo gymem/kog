@@ -1,5 +1,8 @@
 技術的な話で参考になるサイトを記載しています。
 
-・Visual Studio CodeでGitを利用する
+・Visual Studio Code でGitを利用する
 https://www.atmarkit.co.jp/ait/articles/1507/21/news017.html
+
+・Unreal Engine でGitを利用する
+https://ch.nicovideo.jp/ka_z_sdvx/blomaga/ar825106
 
